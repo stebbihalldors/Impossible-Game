@@ -8421,6 +8421,7 @@ GameObject:
   - component: {fileID: 1398440277}
   - component: {fileID: 1398440276}
   - component: {fileID: 1398440278}
+  - component: {fileID: 1398440279}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -8461,7 +8462,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 15303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 357e1bbe905f165479007f8f20fe0d19, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8570,6 +8571,22 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 5c75b1ca43ae04f47bc6f7b910449a3c, type: 2}
+--- !u!114 &1398440279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398440270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 53d31f7e830ea3c43afeb899640bba0a, type: 2}
 --- !u!1001 &1399459515
 PrefabInstance:
   m_ObjectHideFlags: 0
